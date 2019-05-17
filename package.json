@@ -1,8 +1,8 @@
 {
-  "name": "express-rest-es2017-boilerplate",
+  "name": "node-starter-app",
   "version": "1.2.2",
-  "description": "Express boilerplate for building RESTful APIs",
-  "author": "Daniel Sousa <sousa.dfs@gmail.com>",
+  "description": "A starter boilerplate for creating node apps.",
+  "author": "Osama Mohammad Najjar",
   "main": "src/index.js",
   "private": false,
   "license": "MIT",
@@ -28,15 +28,11 @@
     "postpublish": "git push --tags",
     "deploy": "sh ./deploy.sh",
     "docs": "apidoc -i src -o docs",
-    "postdocs": "opn docs/index.html",
-    "docker:start": "cross-env NODE_ENV=production pm2-docker start ./src/index.js",
-    "docker:prod": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up",
-    "docker:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
-    "docker:test": "docker-compose -f docker-compose.yml -f docker-compose.test.yml up --abort-on-container-exit"
+    "postdocs": "opn docs/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:danielfsousa/express-rest-es2017-boilerplate.git"
+    "url": "git@github.com:omnajjar/node-app-starter.git"
   },
   "keywords": [
     "express",

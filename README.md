@@ -118,55 +118,14 @@ pm2 logs
 yarn docs
 ```
 
-## Docker
-
-```bash
-# run container locally
-yarn docker:dev
-or
-docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
-
-# run container in production
-yarn docker:prod
-or
-docker-compose -f docker-compose.yml -f docker-compose.prod.yml up
-
-# run tests
-yarn docker:test
-or
-docker-compose -f docker-compose.yml -f docker-compose.test.yml up
-```
-
 ## Deploy
 
-Set your server ip:
+//Todo
 
-```bash
-DEPLOY_SERVER=127.0.0.1
-```
+## Inspirations & kudos to: 
 
-Replace my Docker username with yours:
-
-```bash
-nano deploy.sh
-```
-
-Run deploy script:
-
-```bash
-yarn deploy
-or
-sh ./deploy.sh
-```
-
-## Tutorials
- - [Create API Documentation Using Squarespace](https://selfaware.blog/home/2018/6/23/api-documentation)
-
-## Inspirations
-
- - [KunalKapadia/express-mongoose-es6-rest-api](https://github.com/KunalKapadia/express-mongoose-es6-rest-api)
- - [diegohaz/rest](https://github.com/diegohaz/rest)
+Thanks to [Daniel Sousa](https://github.com/danielfsousa/express-rest-es2017-boilerplate) as this starter app is just a simplified version of Daniel's version.
 
 ## License
 
-[MIT License](README.md) - [Daniel Sousa](https://github.com/danielfsousa)
+[MIT License](README.md)
